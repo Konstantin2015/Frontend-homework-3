@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to bottom, #0F81A5 30%,green 70%) ;
+    margin: 0 auto;
+    display: block;
+}
+.form {
+}
+.about_yourself {
+    margin-top: 20px;
+}
+.weekend li{
+    list-style-type: none;
+}
+.spam i {
+    font-size: 18px;
+}
+.spam li{
+    list-style-type: none;
+}
+.conclusion {
+    margin-top: 20px;
+}
+#button {
+    background: #E83F04;
+    margin: 20px 0px 20px 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
