@@ -52,14 +52,16 @@ article img{
     width: 524px;
     height: 192px;
 }
-.items span {
+.parag {
     font-family: Helvetica;
-    font-size: 44px;
+    font-size: 35px;
+    font-weight: normal;
     color:#093500;
 }
-.items b {
+.items span {
     font-family: Helvetica;
-    font-size: 45px;
+    font-size: 40px;
+    font-weight: bolder;
     color:#093500;
 }
 .items ul {
