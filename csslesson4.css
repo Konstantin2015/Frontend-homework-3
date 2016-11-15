@@ -4,6 +4,12 @@ header {
     height: 80px;
     margin: 0 auto;
 }
+.lheader {
+    background: linear-gradient(to bottom, #769715 30%,#99CC01 90%);
+    width: 775px;
+    height: 80px;
+    margin: 0 auto;
+}
 .logo {
     margin: 0px 0px 20px 40px;
 }
@@ -43,6 +49,7 @@ article {
     height: 192px;
     width: 775px;
     margin: 0 auto;
+    margin-top: -50px;
 }
 article img{
     float: left;
@@ -89,10 +96,15 @@ section {
     margin: 0 auto;
 }
 .west {
-    width: 200px;
-    height: 276px;
+    width: 230px;
+    height: 236px;
     float: left;
     margin-left: 25px;
+    margin-top:30px ;
+    border-right:2px solid lightgrey;
+}
+.west_zag {
+    margin-top: -10px ;
 }
 .west strong {
     color: #99C50A;
@@ -102,6 +114,7 @@ section {
 .west p {
     font-family: Helvetica  ;
     font-size: 12px;
+    margin-right: 20px;
 }
 h3 {
     color: #093500;
@@ -117,19 +130,14 @@ section p {
     font-family: Helvetica  ;
     font-size: 12px;
 }
+section a {
+}
 aside {
     width: 475px;
     height: 260px;
     float: left;
     margin-top: 10px;
-    margin-left: 10px;
-}
-.border{
-    width: 2px;
-    height: 230px;
-    background-color: lightgrey;
-    margin: 30px 20px 30px 20px;
-    float:left;
+    margin-left: 25px;
 }
 .block_1{
     width: 470px;
@@ -150,6 +158,7 @@ aside {
 .block_2{
     width: 470px;
     height: 120px;
+    margin-top: 5px;
 }
 .block_2 img {
     float: left;
