@@ -4,12 +4,6 @@ header {
     height: 80px;
     margin: 0 auto;
 }
-.lheader {
-    background: linear-gradient(to bottom, #769715 30%,#99CC01 90%);
-    width: 775px;
-    height: 80px;
-    margin: 0 auto;
-}
 .logo {
     margin: 0px 0px 20px 40px;
 }
