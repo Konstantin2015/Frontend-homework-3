@@ -37,55 +37,5 @@ $mail->isHTML(true);
 $mail->Subject = 'Заказ обратного звонка';
 $mail->Body = $message;
 
-if( $mail->send() ){
-
-echo '<p style="color: green;">Ваше сообщение отправлено</p>';
-
-}else{
-
-echo '<p style="color: red;">Ошибка!</p>';
-
-}
 ?>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--__________________-------------------------------------------------->
-<?php
-//if($_POST['submit']) {
-//    $user = substr(htmlspecialchars(trim($_POST['user'])), 0, 1000);
-//    $surname =  substr(htmlspecialchars(trim($_POST['surname'])), 0, 1000000);
-//    $company =  substr(htmlspecialchars(trim($_POST['company'])), 0, 30);
-//    $street =  substr(htmlspecialchars(trim($_POST['street'])), 0, 30);
-//    $city =  substr(htmlspecialchars(trim($_POST['city'])), 0, 50);
-//    $state =  substr(htmlspecialchars(trim($_POST['state'])), 0, 30);
-//    $country =  substr(htmlspecialchars(trim($_POST['country'])), 0, 30);
-//    $zipcode =  substr(htmlspecialchars(trim($_POST['zipcode'])), 0, 50);
-//
-//    $mess = '
-//        First name:'.$_POST['user'].'
-//        Last name:'.$_POST['surname'].'
-//        Company:'.$_POST['company'].'
-//        '.$_POST['mess'];
-//    // $to - кому отправляем
-//    $to = 'Goldenkot@mail.ru';
-//    // $from - от кого
-//    $from='test@test.ru';
-//    // функция, которая отправляет наше письмо
-//    mail($to, $user, $surname,$company,$street,$city,$state,$country,$zipcode, 'From:'.$from);
-//    echo 'Спасибо! Ваше письмо отправлено.';
-//}
-//if (!empty($_POST['submit'])) complete_mail();
-//else show_form();
-//?>
