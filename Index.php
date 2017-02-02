@@ -17,7 +17,7 @@
         <fieldset class="data">
             <p>
                 <label for="first-name">First name*</label>
-                <input name="user" class="field name" id="first-name" type="text" required>
+                <input name="name" class="field name" id="first-name" type="text" required>
             </p>
             <p>
                 <label for="last-name">Last name*</label>
@@ -73,13 +73,17 @@
             </div>
             <div class="notes">
                 <p><label class="rrr">Additional Notes</label></p>
-                <p><textarea class="textarea-wrapp" rows="3" cols="45" name="notes"></textarea></p>
+                <p><textarea class="textarea-wrapp" rows="3" cols="45" name="mess"></textarea></p>
             </div>
-            <button class="btn-send col-md-10" type="submit" value="send">Send</button>
+            <button class="btn-send col-md-10" type="submit" name="submit" value="send">Send</button>
         </fieldset>
     </form>
+
 </section>
 </body>
+<!----------------------------------------------------------->
+
+<!----------------------------------------------------------->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script src="js/lib//jquery-3.1.1.min.js"></script>
 <script src="js/lib/bootstrap.min.js"></script>
