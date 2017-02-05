@@ -44,7 +44,7 @@ $zipcode = trim($zipcode);
 $cntrinterest =  trim($cntrinterest);
 $notes =  trim($notes);
 
-$to  = "office@globalvision.online, lomakoira@mail.ru" ;
+$to  = "Goldenkott@gmail.com" ;
 
 
 if(isset($_POST['check']))
