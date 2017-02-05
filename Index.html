@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/lib/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <title>quoete request</title>
+    <title>TASK</title>
 </head>
 <body>
 <section class="wrapper">
@@ -17,7 +17,7 @@
         <fieldset class="data">
             <p>
                 <label for="first-name">First name*</label>
-                <input name="user" class="field name" id="first-name" type="text" required>
+                <input name="name" class="field name" id="first-name" type="text" required>
             </p>
             <p>
                 <label for="last-name">Last name*</label>
@@ -56,9 +56,9 @@
                 <p>Region of Distribution Interest*<br>
                     ( Select all that applies )</p>
                 <ul class="checkbox-cont">
-                    <li><input name="North" class=""  id="north" type="checkbox" checked><label for="north">North America</label></li>
-                    <li><input name="Middle" class="" id="middle" type="checkbox"><label for="middle">Middle East</label></li>
-                    <li><input name="Latin" class="" id="latin" type="checkbox"><label for="latin">Latin America</label></li>
+                    <li><input name="check[0]" class=""  id="north" type="checkbox" checked><label for="north">North America</label></li>
+                    <li><input name="check[1]" class="" id="middle" type="checkbox" checked><label for="middle">Middle East</label></li>
+                    <li><input name="check[2]" class="" id="latin" type="checkbox" checked><label for="latin">Latin America</label></li>
                 </ul>
             </div>
             <div class="cont-interest">
@@ -69,7 +69,7 @@
                                 the end of this page
                         </span></p>
                 </label>
-                <input name="country-of-interest" class="" id="country-of-interest" type="text" >
+                <input name="cntrinterest" class="" id="country-of-interest" type="text" >
             </div>
             <div class="notes">
                 <p><label class="rrr">Additional Notes</label></p>
@@ -80,8 +80,9 @@
     </form>
 </section>
 </body>
-    
+
+
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script src="js/lib//jquery-3.1.1.min.js"></script>    
+<script src="js/lib/jquery-3.1.1.min.js"></script>
 <script src="js/lib/bootstrap.min.js"></script>
 </html>
